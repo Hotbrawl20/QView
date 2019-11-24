@@ -1,5 +1,5 @@
 
-#QView
+QView
 QView is a port to WPF (Windows Presentation Foundation) of uViewer/QForegroundViewer made by XorTroll which was made in WinForms
 
 ##Features that I added
@@ -10,7 +10,6 @@ QView is a port to WPF (Windows Presentation Foundation) of uViewer/QForegroundV
 - Screenshots
 - Resizing
 
-
-## Credits
+##Credits
 
 - [XorTroll](https://github.com/XorTroll) for writing [uLaunch](https://github.com/XorTroll/uLaunch) and [uViewer/QForegroundViewer](https://github.com/XorTroll/uLaunch/tree/master/uViewer)
