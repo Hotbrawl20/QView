@@ -51,7 +51,7 @@ namespace QView
 
         public void Refresh()
         {
-            n.Dispatcher.Invoke(DispatcherPriority.Render, EmptyDelegate);
+            iCapture.Dispatcher.Invoke(DispatcherPriority.Render, EmptyDelegate);
         }
         public void ApplyRGBAInternal(byte[] data)
         {
