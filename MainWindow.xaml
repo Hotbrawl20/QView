@@ -1,0 +1,27 @@
+﻿<Window x:Class="QView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QView"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="777" Width="1296" ResizeMode="NoResize">
+    <Grid>
+        
+        
+        <DockPanel Grid.ColumnSpan="2" Height="18" VerticalAlignment="Top">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Connection">
+                    <MenuItem x:Name="miConn" Header="Connect" Click="miConn_Click"/>
+                    <MenuItem x:Name="miReConn" Header="Reconnect" Click="miReConn_Click" IsEnabled="False"/>
+                    <MenuItem x:Name="miDisConn" Header="Disconnect" Click="miDisConn_Click" IsEnabled="False"/>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        
+        <!--<TextBlock x:Name="tbMSG" HorizontalAlignment="Left" Margin="10,36,0,0" TextWrapping="Wrap" Text="Press Check" VerticalAlignment="Top" Height="47" Width="760" FontSize="30"/>-->
+        <Image x:Name="iCapture" HorizontalAlignment="Left" Height="720" VerticalAlignment="Top" Width="1280" Margin="0,18,0,0"/>
+
+
+    </Grid>
+</Window>
